@@ -3,37 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Mon Portfolio</title>
 </head>
 <body>
     <header>
-        <h1>Bienvenue sur mon Portfolio</h1>
-        <nav>
+        <nav class="navbar">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Work">Work</a></li>
+                <li><a href="#Resume">Resume</a></li>
+                <li><a href="#Contact">Contact</a></li>
             </ul>
-        </nav>
+        </nav><br><br>
+        <h1>Bienvenue sur mon Portfolio</h1>
     </header>
    <main>
-    <section>
+    <section id="About" class="about">
         <h2>About</h2>
         <p>Je suis une passionnée de developpement web Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ullam, animi aliquam hic magni voluptates quibusdam alias quisquam laudantium? Laudantium aperiam non enim distinctio illo perferendis sequi sapiente omnis error?</p>
+       
 
     </section>
-    <section>
-        <h2>Work</h2>
+    <section id="Work" class="work">
+        <h2>Work</h2><br><br>
         <ul>
             <li>Projet 1</li>
             <li>Projet 2</li>
             <li>Projet 3</li>
+            
         </ul>
     </section>
-    <section>
-        <h2>Resume</h2>
+    <section id="Resume" class="resume">
+        <h2>Resume</h2><br><br>
         <table border="1">
             <tr>
                 <th>Compétences</th>
@@ -45,11 +49,12 @@
             </tr>
             <tr></tr>
         </table>
+        
 
     </section>
-    <section>
+    <section id="Contact" class="contact">
         <h2>Contact</h2>
-        <form action="">
+        <form action="" class="form">
             <label for="name">Name</label>
             <input type="text" name="Name" id="name">
             <label for="email">email</label>
@@ -58,12 +63,13 @@
             <input type="text">
             <button>Submit</button>
         </form>
+       
     </section>
-    <section>
-        <h2>Média</h2>
-        <h3>Vidéo de présentation</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/O1rXr_QGv1M?si=b29GMl1EagLcFSE_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <section> <br><br><br><br><br><br>
         
+        <h3>Vidéo de présentation</h3>
+        <iframe width="500" height="280" src="https://www.youtube.com/embed/O1rXr_QGv1M?si=b29GMl1EagLcFSE_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br><br>
         <h3>Audio</h3>
         <audio controls src=""></audio>
     </section>

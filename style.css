@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: rgb(223, 75, 184);
+    top: 0;
+    padding: 10px 0;
+
+}
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+.navbar li {
+    display: inline;
+    margin-right: 15px 0;
+
+}
+    
+ body {
+    font-family: roboto , sans-serif;
+    background-color: white;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaSUzhiZDkeyvBDgEWXzxGh4wPVgvsY0Itog&s);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.navbar a {
+   color: blue;
+   font-size: x-large;
+}
+.navbar a:hover {
+    color: goldenrod;
+}
+
+.navbar a:active {
+    color: chartreuse;
+}
+h1 {
+    color: blue;
+    text-align: center;
+}
+.about , .work , .resume , .contact {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.about:target, .work:target, .resume:target, .contact:target {
+    max-height: 500px;
+    opacity: 1;
+}
+h3{
+    color: blue;
+    font-size: larger;
+    
+}
+h2{ 
+    color: blue;
+    font-size: larger;
+}
+.work li {
+    color: blueviolet;
+    display: inline;
+    margin-right: 15px;
+}
+.form button{
+    color: blue;
+    background-color: darkturquoise;
+}
